@@ -1,15 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Inputs",
-    "\\Inputs\\GroupPolicies",
-    "\\Inputs\\LocalAdminPwdSolution",
-    "\\Inputs\\LocalAdminPwdSolution\\Binaries",
-    "\\Logs",
-    "\\Logs\\Debug",
+    "\\Configs",
     "\\Modules",
-    "\\Outputs",
-    "\\Tools"
+    "\\Tools",
+    "\\Tools\\XmlBuilder",
+    "\\Tools\\XmlBuilder\\ouTreeClass",
+    "\\Tools\\XmlBuilder\\TasksSequence"
   ],
+  "SelectedNode": "\\HardenAD.ps1",
   "PreviewInSolutionExplorer": false
 }

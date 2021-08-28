@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setup>
+  <Menu>
+    <Folder id="1" Name="Organizational Units" Section="OrganizationalUnits">
+      <Folder id="11" Name="ouTree">
+        <Item id="111" Name="Create new Class" Action="New-ouTreeItem"/>
+        <Item id="112" Name="Customize Existing Class" Action="Select-ouTreeItem"/>
+      </Folder>
+    </Folder>
+    <Folder id="2" Name="Group Policy Objects" Section="GroupPolicies">
+      <Folder id="21" Name="Translation Table" Section="Translation" >
+        <Item id="211" Name="Add New Custom Translation Item" Action="Add-TranslationItem"/>
+        <Item id="212" Name="Remove  Custom Translation Item" Action="Remove-TranslationItem"/>
+        <Item id="213" Name="Modify  Custom Translation Item" Action="Edit-TranslationItem"/>
+      </Folder>
+      <Folder id="22" Name="Wmi Filters" Section="WmiFilters">
+        <Item id="221" Name="Add New Wmi Filter" Action="Add-WmiFilterItem"/>
+        <Item id="222" Name="Remove  Wmi Filter" Action="Remove-WmiFilterItem"/>
+        <Item id="223" Name="Modify  Wmi Filter" Action="Edit-WmiFilterItem"/>
+      </Folder>
+      <Item id="23" Name="Add New GPO" Action="Add-GpoItem"/>
+      <Item id="24" Name="Delete  GPO" Action="Remove-GpoItem"/>
+      <Item id="25" Name="Modify  GPO" Action="Edit-GpoItem"/>
+    </Folder>
+    <Folder id="3" Name="Accounts" Section="Accounts">
+      <Item id="31" Name="Add New Account" Action="Add-AccountItem"/>
+      <Item id="32" Name="Remove  Account" Action="Remove-AccountItem"/>
+      <Item id="33" Name="Modify  Account" Action="Edit-AccountItem"/>
+    </Folder>
+    <Folder id="4" Name="Groups" Section="Groups">
+      <Item id="41" Name="Add New Group" Action="Add-GroupItem"/>
+      <Item id="42" Name="Remove  Group" Action="Remove-GroupItem"/>
+      <Item id="43" Name="Modify  Group" Action="Edit-GroupItem"/>
+    </Folder>
+    <Folder id="5" Name="Default Members" Section="DeflautMembers">
+      <Item id="51" Name="Add New Group Target" Action="Add-DfltMbrTargetItem"/>
+      <Item id="52" Name="Remove  Group Target" Action="Remove-DfltMbrTargetItem"/>
+      <Item id="53" Name="Modify  Group Target" Action="Edit-DfltMbrTargetItem"/>
+    </Folder>
+    <Folder id="6" Name="Tasks Scheduler" Section="TaskSechedules">
+      <Item id="61" Name="Modify Scheduler Script Base Directory" Action="Edit-TaskSchedBaseDirItem"/>
+      <Item id="62" Name="Add New Task Schedule" Action="Add-TaskSchedBaseDirItem"/>
+      <Item id="63" Name="Remove  Task Schedule" Action="Remove-TaskSchedBaseDirItem"/>
+      <Item id="64" Name="Modify  Task Schedule" Action="Edit-TaskSchedBaseDirItem"/>
+    </Folder>
+    <Folder id="7" Name="Microsoft 365" Section="Microsoft365">
+      <Item id="71" Name="Add New Target" Action="Add-M365TargetItem"/>
+      <Item id="72" Name="Remove  Target" Action="Remove-M365TargetItem"/>
+      <Item id="73" Name="Modify  Target" Action="Edit-M365TargetItem"/>
+    </Folder>
+    <Folder id="8" Name="Tasks Sequence" Section="Sequence">
+      <Item id="81" Name="Add New Task" Action="Add-TaskItem"/>
+      <Item id="82" Name="Remove  Task" Action="Remove-TaskItem"/>
+      <Item id="83" Name="Modify  Task" Action="Edit-TaskItem"/>
+    </Folder>
+  </Menu>
+</Setup>

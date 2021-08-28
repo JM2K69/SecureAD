@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Settings>
 <!-- ##################################################################################################################################### -->
 <!-- Revision: 2021/08/12 by loic.veirman@mssec.Fr                                                                                         -->
@@ -633,7 +633,7 @@
       <!-- Parameter: ForceDcIsSchemaOwner (default) will require that the running system is also the Schema Master owner                  -->
       <!--            IgnoreDcIsSchameOwner will remove this requierment (child domain, etc.)                                              -->
       <UseParameters>ForceDcIsSchemaOwner</UseParameters>
-      <TaskEnabled>No</TaskEnabled>
+      <TaskEnabled>Yes</TaskEnabled>
       <TaskDescription>Update `(AD Schema` for `[LAPS` and add `(PShell add-on`</TaskDescription>
     </Id>
 
